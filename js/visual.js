@@ -516,8 +516,8 @@ function relationTable(rawdata, ref){
               .offset([-10, 0])
               .html(function(d) {
                 var html = '<div class="ui tooltip segment">' +
-                           '<div class="cellinfo img"><img class="ui rounded mini image" src="/data/img/' + data.nodes[d.x].name + '_Square_0.jpg"></img>to' +
-                           '<img class="ui rounded mini image" src="/data/img/' + data.nodes[d.y].name + '_Square_0.jpg"></img></div>' +
+                           '<div class="cellinfo img"><img class="ui rounded mini image" src="data/img/' + data.nodes[d.x].name + '_Square_0.jpg"></img>to' +
+                           '<img class="ui rounded mini image" src="data/img/' + data.nodes[d.y].name + '_Square_0.jpg"></img></div>' +
                            '<div class="cellinfo"><h5 class="ui header">Same Team Matches: ' + d.tc +'</h5>' +
                            '<div class="cellinfo"><h5 class="ui header">Teamwork Score: ' + d.t.toFixed(2) +'</h5>' +
                            '<div class="cellinfo"><h5 class="ui header">Opposite Matches: ' + d.ec +'</h5>' +
