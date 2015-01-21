@@ -1,0 +1,83 @@
+.match.duration.chart{
+  width: 950px;
+  height: 300px;
+}
+
+.summoner.tier{
+  width: 950px;
+  height: 400px;
+}
+
+.summoner.tier.chart{
+  width: 475px;
+  height: 300px;
+  display: inline-block;
+  float: left;
+}
+
+.summoner.tier.explain{
+  width: 475px;
+  height: 300px;
+  display: inline-block;
+  float: right;
+}
+
+.tier.statistics{
+  margin-bottom:1px;
+}
+
+.champions.scatterplot{
+  width: 950;
+  height: 600;
+}
+
+.champions.scatterplot.chart{
+  width: 600px;
+  height: 600px;
+  float: left;
+}
+
+.champions.scatterplot.explain{
+
+}
+
+.champion.relation.table.chart{
+  width: 1150px;
+  height: 1175px;
+}
+
+line {
+  stroke: #fff;
+}
+
+.tooltip.segment{
+  width: 250px;
+}
+
+.cellinfo{
+  display: inline;
+}
+
+.cellinfo.img{
+  display: inline;
+  text-align: center;
+  margin-right:5px;
+  float: left;
+}
+
+.ui.mini.image{
+  width:40px;
+}
+
+.team.champSelect.segment{
+  height:300px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+}
+
+.dimmable.image{
+  width: 80px;
+  height:80px;
+  display:inline-block;
+  margin: 7px;
+}
