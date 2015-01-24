@@ -7,7 +7,7 @@ Besides, we analysised relation between champions, including threat level and te
 + [Riot Games API](https://developer.riotgames.com/)
 
 ## Collecting Data
-You can use ``grabber.py`` to collect data from Riot Game API yourself, but remember to setup mongoDB on localhost first, and you should have Riot Game API key and set it in ``config.json``.<br>
+You can use ``grabber.py`` to collect data from Riot Game API yourself, but remember to setup mongoDB on localhost first, and you should have Riot Game API key and set it in ``config.json``.<br><br>
 If `grabber.py` doesn't start to download data, please change `summonerSeed` value in `config.json`, it should be a summoner ID, and you can search summoner ID through summoner name with Riot Game API too.
 
 ## Data Summary
